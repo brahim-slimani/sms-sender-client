@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+$primaryColor: rgb(13, 17, 23);
+$secondaryColor: rgb(22, 27, 34);
+$lightTextColor: white;
+$blueTextColor: rgb(0, 123, 255);
+$redColor: #db0007;
+
+.root {
+  background-color: $primaryColor;
+  color: $lightTextColor;
+  min-height: 100vh;
+  min-width: 100%;
+  //display: grid;
+  //text-align: -webkit-center;
+}
+
+.custom-input {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+/** eliminate input number arrows **/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.form-container {
+  background-color: rgb(22, 27, 32);
+  border-radius: 5px;
+}
+
+.submit-btn {
+  border-radius: 50px;
+}

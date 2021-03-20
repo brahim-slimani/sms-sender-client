@@ -1,7 +1,8 @@
+import { MasterPage } from "./components/master-page";
 
 function App() {
   return (
-   <div>Hi from sms sender client</div>
+    <MasterPage />
   );
 }
 
