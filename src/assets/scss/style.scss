@@ -1,23 +1,19 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 $primaryColor: rgb(13, 17, 23);
-$secondaryColor: rgb(22, 27, 34);
+$secondaryColor: rgb(22, 27, 32);
 $lightTextColor: white;
-$blueTextColor: rgb(0, 123, 255);
-$redColor: #db0007;
 
 .root {
   background-color: $primaryColor;
   color: $lightTextColor;
   min-height: 100vh;
   min-width: 100%;
-  //display: grid;
-  //text-align: -webkit-center;
 }
 
 .custom-input {
   background-color: transparent !important;
-  color: white !important;
+  color: $lightTextColor !important;
 }
 
 /** eliminate input number arrows **/
@@ -32,7 +28,7 @@ input[type=number] {
 
 
 .form-container {
-  background-color: rgb(22, 27, 32);
+  background-color: $secondaryColor;
   border-radius: 5px;
 }
 
