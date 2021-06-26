@@ -6,6 +6,5 @@ jobs:
     docker:       
       - image: buildpack-deps:trusty        
     steps:       
-      - run: npm cache clean --force
       - run: npm install
       - run: npm run build          
