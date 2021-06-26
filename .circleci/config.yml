@@ -11,5 +11,5 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm i gh-pages
-      - run: npm sout
+      - run: npm run sout
       - run: npm run deploy
