@@ -11,5 +11,6 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm i gh-pages
-      - run: npm run sout
+      - run: git config --global user.email "slimani.ibr@gmail.com"
+             git config --global user.name "Slimani-Ibrahim"
       - run: npm run deploy
