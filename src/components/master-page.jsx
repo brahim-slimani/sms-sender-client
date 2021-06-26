@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 
-export const MasterPage = (props) => {
+export const MasterPage = () => {
 
     const [phoneNumber, setPhoneNumber] = useState();
     const [smsContent, setSmsContent] = useState();
@@ -39,11 +39,6 @@ export const MasterPage = (props) => {
                 <h5>  <i className="bi bi-chat-left-dots" /> SMS Sender Client   </h5>
             </nav>
 
-            <button type="button" className="btn btn-danger" data-toggle="modal" data-target="#bt-modal">open bootstrap modal</button>
-            
-            <div className="modal fade" id="bt-modal">
-                Salam from bootstrap modal !
-            </div>
             <div className="form-container p-3 col-md-4" style={{ margin: "auto" }}>
                 <form onSubmit={(e) => onSubmitForm(e)}>
                     <div className="form-group">
