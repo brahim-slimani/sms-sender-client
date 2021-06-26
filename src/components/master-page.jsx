@@ -1,8 +1,9 @@
-
-
 import React from 'react';
 import { useState } from 'react';
 import SmsService from "../api/sms-service";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+
 
 export const MasterPage = (props) => {
 
@@ -37,6 +38,12 @@ export const MasterPage = (props) => {
             <nav className="text-center pt-5 pb-3">
                 <h5>  <i className="bi bi-chat-left-dots" /> SMS Sender Client   </h5>
             </nav>
+
+            <button type="button" className="btn btn-danger" data-toggle="modal" data-target="#bt-modal">open bootstrap modal</button>
+            
+            <div className="modal fade" id="bt-modal">
+                Salam from bootstrap modal !
+            </div>
             <div className="form-container p-3 col-md-4" style={{ margin: "auto" }}>
                 <form onSubmit={(e) => onSubmitForm(e)}>
                     <div className="form-group">
