@@ -16,4 +16,7 @@ jobs:
           command: |
             git config --global user.email "slimani.ibr@gmail.com"
             git config --global user.name "Slimani-Ibrahim"
+      - add_ssh_keys:
+          fingerprints:
+            - "02:21:37:25:65:ca:42:b5:ba:77:fb:9e:9d:36:d4:b5"
       - run: npm run deploy
