@@ -4,7 +4,8 @@ orbs:
 jobs: 
   build: 
     docker:       
-      - image: circleci/node:12.13.1     
+      - image: circleci/node:12.13.1    
+    working_directory: ~/repo
     steps:       
       - run: npm install
       - run: npm run build          
