@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sms-sender-client/static/css/main.3074c054.chunk.css",
-    "main.js": "/sms-sender-client/static/js/main.708bfbe5.chunk.js",
-    "main.js.map": "/sms-sender-client/static/js/main.708bfbe5.chunk.js.map",
+    "main.js": "/sms-sender-client/static/js/main.eb4d907e.chunk.js",
+    "main.js.map": "/sms-sender-client/static/js/main.eb4d907e.chunk.js.map",
     "runtime-main.js": "/sms-sender-client/static/js/runtime-main.6a2b3c66.js",
     "runtime-main.js.map": "/sms-sender-client/static/js/runtime-main.6a2b3c66.js.map",
     "static/css/2.379a8125.chunk.css": "/sms-sender-client/static/css/2.379a8125.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.379a8125.chunk.css",
     "static/js/2.02366511.chunk.js",
     "static/css/main.3074c054.chunk.css",
-    "static/js/main.708bfbe5.chunk.js"
+    "static/js/main.eb4d907e.chunk.js"
   ]
 }
