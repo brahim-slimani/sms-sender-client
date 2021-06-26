@@ -2,6 +2,7 @@
   "name": "sms-sender-client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://slimani-ibrahim.github.io/sms-sender-client",
   "dependencies": {
     "@szhsin/react-menu": "^1.8.0",
     "@testing-library/jest-dom": "^5.11.9",
