@@ -10,4 +10,5 @@ jobs:
       - checkout
       - run: npm install
       - run: npm run build
+      - run: npm i gh-pages
       - run: gh-pages --dist ~/repo/build/*
