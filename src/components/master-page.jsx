@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import SmsService from "../api/sms-service";
+import SmsService from "api/sms-service";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 

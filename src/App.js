@@ -1,4 +1,4 @@
-import { MasterPage } from "./components/master-page";
+import { MasterPage } from "components/master-page";
 
 function App() {
   return (
