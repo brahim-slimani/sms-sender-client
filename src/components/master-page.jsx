@@ -25,7 +25,7 @@ export const MasterPage = () => {
                 setFormResponse(<Notification type="danger" icon="x-circle" message={error} />)
             });
         }else {
-            setFormResponse(<Notification type="danger" icon="x-circle" message="Please to fill the form fields !" />)
+            setFormResponse(<Notification type="danger" icon="x-circle" message="Please fill the form fields !" />)
         }
     }
 
